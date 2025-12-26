@@ -90,7 +90,7 @@ btnYes.addEventListener("click", (e) => {
   setTimeout(() => {
     const celebration = document.createElement("div");
     celebration.className = "celebration";
-    celebration.innerHTML = "🎉 Yay! Happy Valentine's Day! 💕";
+    celebration.innerHTML = "See you then, Precious! 💕";
     document.body.appendChild(celebration);
     setTimeout(() => celebration.classList.add("show"), 100);
   }, 500);
